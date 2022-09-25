@@ -1,5 +1,5 @@
 const body = document.body;
-const endTime = new Date('December 31 2022 23:59:59');
+const endTime = new Date('December 31 2020 23:59:59');
 const daysEl = document.getElementById('days');
 const hoursEl = document.getElementById('hours');
 const minutesEl = document.getElementById('minutes');
@@ -38,6 +38,10 @@ function createSnowFlake() {
 		snow_flake.remove();
 	}, 5000)
 }
+
+//make it snow
+
+
 
 // SOCIAL PANEL JS
 const floating_btn = document.querySelector('.floating-btn');
